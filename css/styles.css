@@ -49,8 +49,7 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.header-logo span
-{
+.header-logo span {
   color: #4d5ae5;
 }
 .header-nav {
@@ -76,25 +75,24 @@ ul {
   gap: 40px;
 }
 .header-menu-link {
-color: #2E2F42;
-font-weight: 500;
-letter-spacing: 0.32px;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.32px;
 }
 .header-menu-link:hover,
-.header-address-link:hover
-{
-    color: #404bbf;
-    transition: 0.1s;
+.header-address-link:hover {
+  color: #404bbf;
+  transition: 0.1s;
 }
 .header-menu-link:active {
-    padding-bottom: 20px;
-    border-bottom: 4px solid #404bbf;
-    border-radius: 2px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #404bbf;
+  border-radius: 2px;
 }
 .header-address-link {
-color: #434455;
-font-style: normal;
-letter-spacing: 0.32px;
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 0.32px;
 }
 
 /* Hero section */
@@ -127,8 +125,8 @@ letter-spacing: 0.32px;
   cursor: pointer;
 }
 .hero-btn:hover {
-    background-color: #404bbf;
-    transition: 0.5s;
+  background-color: #404bbf;
+  transition: 0.5s;
 }
 
 /* second-section */
@@ -230,18 +228,18 @@ letter-spacing: 0.32px;
 }
 
 .footer {
-padding: 100px 0;
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 .footer-logo {
-    color: #F4F4FD;
-    margin-bottom: 18px;
+  color: #f4f4fd;
+  margin-bottom: 18px;
 }
 .footer-logo span {
-    color: #4D5AE5;
+  color: #4d5ae5;
 }
 .footer-text {
-    width: 24%;
+  width: 24%;
   color: #f4f4fd;
   letter-spacing: 0.32px;
 }
