@@ -45,7 +45,7 @@ ul {
   align-self: center;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -62,11 +62,8 @@ ul {
   align-items: center;
   gap: 40px;
   color: #2e2f42;
-  font-size: 16px;
   font-weight: 500;
-
   letter-spacing: 0.32px;
-  margin: 0;
   padding: 0 0 0 76px;
 }
 
@@ -80,9 +77,19 @@ ul {
 }
 .header-menu-link {
 color: #2E2F42;
-font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.32px;
+}
+.header-menu-link:hover,
+.header-address-link:hover
+{
+    color: #404bbf;
+    transition: 0.1s;
+}
+.header-menu-link:active {
+    padding-bottom: 20px;
+    border-bottom: 4px solid #404bbf;
+    border-radius: 2px;
 }
 .header-address-link {
 color: #434455;
@@ -106,7 +113,7 @@ letter-spacing: 0.32px;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
 }
 .hero-btn {
@@ -117,6 +124,11 @@ letter-spacing: 0.32px;
   color: #fff;
   letter-spacing: 0.64px;
   line-height: 1.5;
+  cursor: pointer;
+}
+.hero-btn:hover {
+    background-color: #404bbf;
+    transition: 0.5s;
 }
 
 /* second-section */
@@ -144,9 +156,6 @@ letter-spacing: 0.32px;
   margin-bottom: 8px;
 }
 .second-section-list-text {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0.32px;
   margin-bottom: 120px;
 }
@@ -161,7 +170,7 @@ letter-spacing: 0.32px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -184,9 +193,6 @@ letter-spacing: 0.32px;
 
 .team-list-text {
   padding-bottom: 32px;
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0.32px;
 }
 
@@ -197,7 +203,7 @@ letter-spacing: 0.32px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.111; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -220,9 +226,6 @@ letter-spacing: 0.32px;
 
 .portfolio-list-text {
   padding-bottom: 32px;
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0.32px;
 }
 
@@ -240,7 +243,5 @@ padding: 100px 0;
 .footer-text {
     width: 24%;
   color: #f4f4fd;
-  font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0.32px;
 }
