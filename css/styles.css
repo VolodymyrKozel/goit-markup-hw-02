@@ -191,10 +191,13 @@ h3 {
 .team-list {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
   text-align: center;
   background-color: #ffffff;
 }
+.team-list-li {
+  background-color: #ffffff;
+}
+
 .team-list-title {
   padding-top: 32px;
   padding-bottom: 8px;
@@ -215,7 +218,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 24px;
   background-color: #ffffff;
 }
 
