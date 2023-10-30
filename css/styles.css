@@ -25,7 +25,8 @@ ul {
 
 .wrapper {
   max-width: 1440px;
-  margin: 0 156px;
+  width: 1128.010px;
+  margin: 0 auto;
 }
 
 /* Typography */
@@ -126,20 +127,17 @@ h3 {
 
 /* Hero section */
 .hero {
+  padding: 188px 0;
   background-color: #2e2f42;
+  text-align: center;
   height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 48px;
 }
 .hero-title {
-  width: 55%;
-  text-align: center;
+  padding: 0 316px 48px 316px;
   color: #fff;
 }
 .hero-btn {
+width: 178px;
   padding: 16px 32px;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -158,15 +156,19 @@ h3 {
 /* second-section */
 
 .second-section {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .second-section-title {
-  display: none;
+  text-align: center;
+  margin-bottom: 72px;
 }
 
-.second-section-list {
-  display: flex;
-  gap: 24px;
+.second-section-list li {
+    float: left;
+    width: 264px;
+  }
+.second-section-list li:not(:last-child) {
+    margin-right: 24px;
 }
 
 .second-section-list-title {
@@ -175,12 +177,16 @@ h3 {
 }
 .second-section-list-text {
   letter-spacing: 0.32px;
-  margin-bottom: 120px;
 }
 
+.second-section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -189,13 +195,20 @@ h3 {
 }
 
 .team-list {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  background-color: #ffffff;
+  
+}
+.team::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 .team-list-li {
+    text-align: center;
+    float: left;
   background-color: #ffffff;
+}
+.team-list-li:not(:last-child) {
+    margin-right: 24px;
 }
 
 .team-list-title {
@@ -208,17 +221,23 @@ h3 {
   letter-spacing: 0.32px;
 }
 
+.portfolio {
+    padding: 120px 0;
+}
 .portfolio-title {
-  margin-top: 120px;
   margin-bottom: 72px;
   text-align: center;
 }
 
 .portfolio-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+text-align: center;
   background-color: #ffffff;
+}
+.portfolio-list li {
+    float: left;
+}
+.portfolio-list li:not(:nth-child(3n)){
+    padding-right: 24px;
 }
 
 .portfolio-list-title {
@@ -230,15 +249,17 @@ h3 {
   padding-bottom: 32px;
   letter-spacing: 0.32px;
 }
-
+.portfolio::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
   padding: 100px 0;
   background-color: #2e2f42;
 }
 .footer-logo {
+    display: block;
   margin-bottom: 18px;
 }
 
@@ -246,8 +267,7 @@ h3 {
   color: #f4f4fd;
 }
 .footer-text {
-  width: 24%;
+    width: 264px;
   color: #f4f4fd;
   letter-spacing: 0.32px;
-  margin: 0 156px;
 }
