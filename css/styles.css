@@ -189,6 +189,7 @@ h3 {
 
 .team-list {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
   text-align: center;
 }
@@ -210,6 +211,7 @@ h3 {
 
 .portfolio-list {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 24px;
 }
