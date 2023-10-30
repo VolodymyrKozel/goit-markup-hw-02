@@ -29,13 +29,39 @@ ul {
   margin: 0 auto;
 }
 
+/* Typography */
+h1,
+h2,
+h3 {
+  color: #2e2f42;
+}
+.main-heading {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.second-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.third-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
 /* Header section */
 .header {
   display: flex;
   justify-content: space-between;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  background: #fff;
+  background-color: #fff;
 }
 
 .header-logo {
@@ -98,7 +124,7 @@ ul {
 
 /* Hero section */
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -108,17 +134,13 @@ ul {
 }
 .hero-title {
   width: 55%;
-  color: #fff;
   text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07; /* 107.143% */
-  letter-spacing: 1.12px;
+  color: #fff;
 }
 .hero-btn {
   padding: 16px 32px;
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   letter-spacing: 0.64px;
@@ -143,17 +165,11 @@ ul {
 
 .second-section-list {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
 }
 
 .second-section-list-title {
   text-align: center;
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
 .second-section-list-text {
@@ -167,13 +183,7 @@ ul {
 }
 
 .team-title {
-  color: #2e2f42;
   text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
   margin-bottom: 72px;
 }
 
@@ -185,11 +195,6 @@ ul {
 .team-list-title {
   padding-top: 32px;
   padding-bottom: 8px;
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
 }
 
 .team-list-text {
@@ -200,13 +205,7 @@ ul {
 .portfolio-title {
   margin-top: 120px;
   margin-bottom: 72px;
-  color: #2e2f42;
   text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.111; /* 111.111% */
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -218,11 +217,6 @@ ul {
 .portfolio-list-title {
   padding-top: 32px;
   padding-bottom: 8px;
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
 }
 
 .portfolio-list-text {
