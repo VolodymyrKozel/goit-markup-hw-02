@@ -93,10 +93,12 @@ p {
   font-weight: 500;
   margin: 0 0 0 76px;
 }
+.header-address {
+  font-style: normal;
+}
 .header-address ul {
   display: inline-flex;
   gap: 40px;
-  font-style: normal;
 }
 .header-menu-link {
   color: #2e2f42;
@@ -260,7 +262,9 @@ p {
   color: #f4f4fd;
 }
 .footer-text {
-  width: 264px;
+  width: 1128px;
+  margin: auto;
+  padding-right: 864px;
   color: #f4f4fd;
   letter-spacing: 0.32px;
 }
