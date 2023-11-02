@@ -25,8 +25,10 @@ ol {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .wrapper {
@@ -119,6 +121,7 @@ p {
 .header-menu-link:active {
   padding-bottom: 20px;
   border-bottom: 4px solid #404bbf;
+  border-radius: 2px;
 }
 
 .header-address {
@@ -167,7 +170,7 @@ p {
   padding: 120px 0;
 }
 .second-section-title {
-  text-align: center;
+  display: none;
   margin-bottom: 72px;
 }
 
@@ -197,9 +200,9 @@ p {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.team-list-li:not(:last-child) {
+/* .team-list-li:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 .team-list-title {
   padding-top: 32px;
