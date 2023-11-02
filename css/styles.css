@@ -81,39 +81,38 @@ p {
   color: #4d5ae5;
 }
 
-/* helper for ul list  */
+/* helper for ul list 
 .flex-g24 {
   display: flex;
-  /*  gap: 24px; */
-}
+   gap: 24px;
+} */
 
 /* Header section */
 
 .header {
-  display: flex;
+/*   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-shrink: 0;
-  height: 72px;
+  flex-shrink: 0; */
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
 }
-.header-nav {
+/* .header-nav {
   display: inline-flex;
   flex-shrink: 1;
-}
+} */
 .header-logo span {
   color: #2e2f42;
 }
 
-.header-menu {
+/* .header-menu {
   margin-left: 76px;
   display: inline-flex;
   align-items: flex-start;
 }
 .header-menu-li:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
 .header-menu-link {
   color: #2e2f42;
@@ -134,14 +133,14 @@ p {
 .header-address {
   font-style: normal;
 }
-.header-address-list {
+/* .header-address-list {
   margin-left: 332px;
   display: inline-flex;
-}
+} */
 
-.header-address-list-li:not(:last-child) {
+/* .header-address-list-li:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
 .header-address-link {
   color: #434455;
@@ -182,7 +181,6 @@ p {
   padding: 120px 0;
 }
 .second-section-title {
-  display: none;
   margin-bottom: 72px;
 }
 
@@ -190,10 +188,10 @@ p {
   width: 264px;
 }
 
-.second-section-list-li:not(:last-child) {
+/* .second-section-list-li:not(:last-child) {
   margin-right: 24px;
 }
-
+ */
 .second-section-list-title {
   text-align: center;
   margin-bottom: 8px;
@@ -216,9 +214,9 @@ p {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.team-list-li:not(:last-child) {
+/* .team-list-li:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 .team-list-title {
   padding-top: 32px;
@@ -238,7 +236,7 @@ p {
 }
 
 .portfolio-list {
-  flex-wrap: wrap;
+ /*  flex-wrap: wrap; */
   background-color: #fff;
 }
 .portfolio-list-li {
@@ -247,9 +245,9 @@ p {
   background: #fff;
   border: 1px solid #e7e9fc;
 }
-.portfolio-list-li:not(:nth-child(3n)) {
+/* .portfolio-list-li:not(:nth-child(3n)) {
   margin-right: 24px;
-}
+} */
 
 .portfolio-list-title {
   padding: 32px 16px 8px 16px;
